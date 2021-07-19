@@ -1,0 +1,16 @@
+Relatórios com Mochawesome
+
+mocha → lib de execução de testes
+mochawesome → formato de relatório nativo do cypress
+
+mochawesome-report-generator → gerar um relatório baseado em um .json
+→ problema: um arquivo .json por cada spec
+
+mochawesome-merge → unifica o resultado de varios .json em um arquivo unico
+
+cypress-multi-reporters → permite o uso de multiplos tipos de relatórios ao final da execução
+
+Relatórios com Cumcuber HTML reporters
+
+Cucumber-html-reporter → gera um relatório html baseado nos arquivos .cumcuber.json
+ 
